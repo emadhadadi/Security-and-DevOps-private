@@ -23,7 +23,6 @@ import com.example.demo.model.requests.ModifyCartRequest;
 @RequestMapping("/api/cart")
 public class CartController {
 
-	// few changes
 	@Autowired
 	private UserRepository userRepository;
 	
